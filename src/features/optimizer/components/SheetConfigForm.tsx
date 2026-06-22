@@ -6,7 +6,6 @@ import { Select } from '@/components/ui/Select'
 import { Button } from '@/components/ui/Button'
 import { Card, CardTitle } from '@/components/ui/Card'
 import { MATERIALS, THICKNESSES } from '@/lib/constants'
-import type { OptimizerConfig } from '@/lib/optimizer'
 
 const schema = z.object({
   material: z.string().min(1, 'Required'),

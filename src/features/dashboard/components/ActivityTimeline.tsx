@@ -20,7 +20,7 @@ export function ActivityTimeline() {
         <CardTitle>Recent Activity</CardTitle>
       </CardHeader>
       <div className="space-y-4">
-        {mockActivity.map((item, idx) => {
+        {mockActivity.map((item) => {
           const cfg = typeConfig[item.type] ?? typeConfig.project
           return (
             <div key={item.id} className="flex gap-3">

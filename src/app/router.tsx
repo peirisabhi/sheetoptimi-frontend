@@ -48,4 +48,4 @@ export const router = createBrowserRouter([
     ],
   },
   { path: '*', element: <Navigate to="/dashboard" replace /> },
-])
+], { basename: import.meta.env.BASE_URL })
